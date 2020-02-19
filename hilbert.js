@@ -1,0 +1,1 @@
+h=i=>{x=(i&2)/2;y=(i+1&2)/2;for(j=1;j<O;j++)[x,y]=[[y,x],[x,y+(L=pow(2,j))],[x+L,y+L],[2*L-1-y,L-1-x]][(i=i>>2)&3];return[x,y]};N=pow(2,O=6);P=min(H,W)-40;M=P/N;Q=(M-P)/2;for(k=0;k<N*N;k++){(k?l2:m2)(M*h(k)[0]+Q+W/2,M*h(k)[1]+Q+H/2)}
