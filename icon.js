@@ -1,4 +1,3 @@
-//icon #cozyvec #plottertwitter
 paper("Postcard",0)
 pen(.25)
 f=rnd(.005,.04)
